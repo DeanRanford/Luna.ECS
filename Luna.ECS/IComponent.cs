@@ -1,3 +1,3 @@
-﻿namespace Luna.ECS;
+namespace Luna.ECS;
 
 public interface IComponent;
