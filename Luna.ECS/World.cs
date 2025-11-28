@@ -2,8 +2,7 @@ namespace Luna.ECS;
 
 public class World
 {
-    private int _entityCounter;
-    private int EntityCounter => ++this._entityCounter;
+    private int EntityCounter => ++field;
     private List<int> DestroyedEntities { get; set; } = [];
     public Dictionary<int, List<IComponent>> Entities { get; private set; } = [];
     public List<System> Systems { get; private set; } = [];
